@@ -52,6 +52,10 @@ nav ol li {
   float: left;
   width: 25%;
 }
+
+ol li h3 {
+  list-style-type: none;
+}
 a.learnmore {
   padding: .5rem 3rem;
   border: 1px solid #000;
@@ -68,6 +72,16 @@ a.buttons {
   left: 50%;
   transform: translateX(-100%);
   margin-top: 5em;
+}
+.bannerbtn {
+  padding: .5rem;
+  border: 1px solid blue;
+  display: inline-block;
+  width: auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-55%);
+  margin-bottom: 20%;
 
 }
 footer {
