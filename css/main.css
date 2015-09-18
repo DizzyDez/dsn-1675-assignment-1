@@ -55,4 +55,21 @@ nav ol li {
 a.learnmore {
   padding: .5rem 3rem;
   border: 1px solid #000;
+  display: block;
+  text-align: center;
+
+}
+a.buttons {
+  padding: .5rem;
+  border: 1px solid blue;
+  display: inline-block;
+  width: auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-100%);
+  margin-top: 5em;
+
+}
+footer {
+  border-top: 1px solid #000;
 }
